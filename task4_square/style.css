@@ -1,0 +1,36 @@
+.square {
+    width: 200px;
+    height: 200px;
+}
+
+.red {
+    background-color: red;
+}
+
+.green {
+    background-color: green;
+    position: absolute;
+    top: 50px;
+    left: 50px;
+    z-index: 1;
+    transition: 1s;
+}
+
+.green:hover {
+    cursor: pointer;
+    width: 300px;
+    height: 300px;
+    transform: rotate(-45deg);
+}
+
+.blue {
+    background-color: blue;
+    position: relative;
+    left: 100px;
+    top: -100px;
+  
+}
+
+.container {
+    position: relative;
+}
