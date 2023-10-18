@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration form</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header></header>
+    <main>
+        <div class="container">
+            <form class="form" action="#">
+                <div class="form__wrapper">
+                    <img class="form__close" src="ic-close.svg" alt="Close popup">
+                    <div class="form__data">
+                        <h1 class="form__title">Регистрация</h1>
+                        <div class="form__inner">
+                            <div class="form__inputs">
+                                <label class="visually-hidden" for="email"><b>E-mail</b></label>
+                                <input class="form__input" type="text" placeholder="E-mail" name="email" required>
+
+                                <label class="visually-hidden" for="psw"><b>Пароль</b></label>
+                                <input class="form__input" type="password" placeholder="Пароль" name="psw" required>
+                            </div>
+                            <p class="form__text">Регистрируясь на сайте, вы соглашаетесь с <a href="#">нашими Правилами
+                                    и Политикой
+                                    конфиденциальности</a> и соглашаетесь на информационную рассылку.</p>
+                            <button type="submit" class="btn btn--yellow">Зарегистрироваться</button>
+                            <button type="button" class="btn btn--brgrey">Войти</button>
+                        </div>
+                    </div>
+                </div>
+        </div>
+        </form>
+    </main>
+    <footer></footer>
+</body>
+
+</html>
