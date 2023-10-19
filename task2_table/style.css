@@ -1,0 +1,21 @@
+table, th, td {
+    border: 1px solid black;
+  }
+
+  .table__img {
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+    padding: 5px;
+  }
+
+  .table__img img {
+    display: block;
+    width: 100%;
+    max-width: 100px;
+    object-fit: cover;
+  }
+
+  .table__img img:not(:last-of-type) {
+    margin-right: 10px;
+  }
